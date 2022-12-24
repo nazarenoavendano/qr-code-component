@@ -1,0 +1,74 @@
+* {
+  /* border: 1px solid black; */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --blanco: hsl(0, 0%, 100%);
+  --gris-claro: hsl(212, 45%, 89%);
+  --gris-azulado: hsl(220, 15%, 55%);
+  --azul-oscuro: hsl(218, 44%, 22%);
+}
+
+body{
+  background-color: var(--gris-claro);
+}
+
+div#contenedor.contenedor {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--gris-claro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#box.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--blanco);
+  height: 400px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+picture#picture.picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+}
+
+img#img.img {
+  border-radius: 15px;
+  width: 92%;
+  height: 92%;
+}
+
+div#descripcion.descripcion {
+  /* background-color: burlywood; */
+  width: 92%;
+}
+
+h2#tituloCaja.tituloCaja {
+  margin-top: 15px;
+  text-align: center;
+  /* background-color: lightblue; */
+  color: var(--azul-oscuro);
+  font-size: 18px;
+}
+
+p#parrafo.parrafo {
+  margin-top: 15px;
+  text-align: center;
+  /* background-color: lightyellow; */
+  font-size: 15px;
+  color: var(--gris-azulado);
+}
