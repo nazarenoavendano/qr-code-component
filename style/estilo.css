@@ -17,7 +17,7 @@ body{
   background-color: var(--gris-claro);
 }
 
-div#contenedor.contenedor {
+main#contenedor.contenedor {
   height: 100vh;
   width: 100%;
   background-color: var(--gris-claro);
