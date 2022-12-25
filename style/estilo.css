@@ -33,9 +33,9 @@ div#box.box {
   justify-content: flex-start;
   align-items: center;
   background-color: var(--blanco);
-  height: 400px;
-  width: 250px;
-  border-radius: 15px;
+  height: 25em;
+  width: 15em;
+  border-radius: 5%;
 }
 
 picture#picture.picture {
@@ -47,7 +47,7 @@ picture#picture.picture {
 }
 
 img#img.img {
-  border-radius: 15px;
+  border-radius: 5%;
   width: 92%;
   height: 92%;
 }
@@ -66,7 +66,7 @@ h1#tituloCaja.tituloCaja {
 }
 
 p#parrafo.parrafo {
-  margin-top: 15px;
+  margin-top: 2%;
   text-align: center;
   /* background-color: lightyellow; */
   font-size: 15px;
