@@ -57,7 +57,7 @@ div#descripcion.descripcion {
   width: 92%;
 }
 
-h2#tituloCaja.tituloCaja {
+h1#tituloCaja.tituloCaja {
   margin-top: 15px;
   text-align: center;
   /* background-color: lightblue; */
